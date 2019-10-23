@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="3rdparty">
+      <UniqueIdentifier>{e80fce5d-6905-4ba2-b505-e67cca0178d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty\concurrentqueue">
+      <UniqueIdentifier>{3b63240e-1472-464f-9e15-7e6358ed1f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{a208b6bb-bc62-480e-889e-67fed0e874c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iocp">
+      <UniqueIdentifier>{a6569b48-cf3f-4062-8046-9105cb2a730d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\gNet\3rdparty\concurrentqueue\blockingconcurrentqueue.h">
+      <Filter>3rdparty\concurrentqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\3rdparty\concurrentqueue\concurrentqueue.h">
+      <Filter>3rdparty\concurrentqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\Channel.h" />
+    <ClInclude Include="..\gNet\CircleBuffer.h" />
+    <ClInclude Include="..\gNet\CurrentThread.h" />
+    <ClInclude Include="..\gNet\EventLoopThreadPool.h" />
+    <ClInclude Include="..\gNet\gNet.h" />
+    <ClInclude Include="..\gNet\LinearBuffer.h" />
+    <ClInclude Include="..\gNet\Socket.h" />
+    <ClInclude Include="..\gNet\TcpServer.h" />
+    <ClInclude Include="..\gNet\utils\common.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\iocp\Iocp.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\iocp\Listener.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\iocp\SocketChannel.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\TcpClient.h" />
+    <ClInclude Include="..\gNet\iocp\Connector.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\SessionID.h" />
+    <ClInclude Include="..\gNet\utils\ByteOrder.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\utils\NonCopyable.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\utils\Singleton.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gNet\utils\ThreadLock.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\gNet\CircleBuffer.cpp" />
+    <ClCompile Include="..\gNet\CurrentThread.cpp" />
+    <ClCompile Include="..\gNet\EventLoopThreadPool.cpp" />
+    <ClCompile Include="..\gNet\gNet.cpp" />
+    <ClCompile Include="..\gNet\LinearBuffer.cpp" />
+    <ClCompile Include="..\gNet\Socket.cpp" />
+    <ClCompile Include="..\gNet\TcpServer.cpp" />
+    <ClCompile Include="..\gNet\iocp\Iocp.cpp">
+      <Filter>iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gNet\iocp\Listener.cpp">
+      <Filter>iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gNet\iocp\SocketChannel.cpp">
+      <Filter>iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gNet\TcpClient.cpp" />
+    <ClCompile Include="..\gNet\iocp\Connector.cpp">
+      <Filter>iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gNet\utils\ByteOrder.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

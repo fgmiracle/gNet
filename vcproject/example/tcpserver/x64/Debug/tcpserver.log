@@ -1,0 +1,4 @@
+﻿  tcpServer.cpp
+  LINK : 缺少程序数据库 H:\c++\gNet\bin\tcpserver.pdb；正在执行完全链接
+  tcpserver.vcxproj -> H:\c++\gNet\bin\tcpserver.exe
+  tcpserver.vcxproj -> H:\c++\gNet\bin\tcpserver.pdb (Full PDB)
